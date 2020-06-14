@@ -139,7 +139,7 @@ AT+SYSRAM   Check the available RAM size
 Execute Command AT
 =============== ==
 Response        OK
-Parameters      -
+Parameters      \-
 =============== ==
 
 2.2.2 ATE - Configure echo of AT commands
