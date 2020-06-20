@@ -11,65 +11,6 @@ Date       Version Description
 \                  
 ========== ======= ================================
 
-**Table of Contents**
-
-1 Command Description 1
-
-2 Basic AT Commands 2
-
-2.1 Overview 2
-
-2.2 Commands 2
-
-2.2.1 AT - Test AT 2
-
-2.2.2 ATE - Configure echo of AT commands 2
-
-2.2.2 AT+RST - Restart module 2
-
-2.2.3 AT+GMR – Check version information 3
-
-2.2.4 AT+RESTORE - Restore factory default setting 3
-
-2.2.5 AT+UART_CUR - Current UART configuration, not save in Flash 3
-
-2.2.6 AT+UART_DEF - Default UART configuration, save in Flash 4
-
-2.2.7 AT+SYSRAM - Check the available RAM size 5
-
-3 Wi-Fi AT Commands 5
-
-3.1 Overview 5
-
-3.2 Commands 6
-
-3.2.1 AT+CWMODE_CUR - 6
-
-4 TCP/IP AT Commands 6
-
-4.1 Overview 6
-
-4.2 Commands 6
-
-4.2.1 AT+CIPSTATUS - Get Connection Status 6
-
-4.2.2 AT+CIPDOMAIN - DNS Function 7
-
-4.3.3 AT+CIPSTART - Establish TCP/UDP Connection 7
-
-4.4.4 AT+CIPSEND - Send Data 8
-
-4.4.5 AT+CIPCLOSE - Close TCP/UDP Connection 9
-
-4.4.6 AT+CIPMUX - Enable/Disable Multiple Connection 10
-
-4.4.7 AT+CIPSERVER - Create/Delete TCP server 10
-
-4.4.8 AT+SERVERMAXCONN - Set Max Connection Allowed By Server 11
-
-4.4.9 AT+CIPMODE - Set Transmission Mode 11
-
-4.4.10 +IPD - Receive Network Data 11
 
 1 Command Description
 =====================
