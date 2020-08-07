@@ -7,8 +7,8 @@ Welcome to BeeFi documentation!
 ====================================
 
 .. toctree::
-   :maxdepth: 2
    :caption: Contents:
+   :numbered:
 
    BFQ4004AT
 
