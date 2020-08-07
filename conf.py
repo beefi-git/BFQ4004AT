@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'BFQ4004'
-copyright = '2020, Job'
+copyright = '2020, BeeFi Technologies Inc.'
 author = 'Job'
 
 # The full version, including alpha/beta/rc tags
-release = '0.9.0'
+release = '0.9.1'
 
 
 # -- General configuration ---------------------------------------------------
