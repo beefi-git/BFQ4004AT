@@ -3302,6 +3302,6 @@ All trade names, trademarks and registered trademarks mentioned in this document
 
 Copyright©2020 BeeFi Technologies Inc. All rights reserved.
 
-.. |image1| image:: f/media/image3.png
+.. |image1| image:: pics/media/image3.png
    :width: 1.75208in
    :height: 0.60764in
