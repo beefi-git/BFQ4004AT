@@ -3,15 +3,6 @@
      <br/>
 
 
-BFQ4004
-#######
-Dual-band Wi-Fi Module
-######################
-AT Command Reference
-####################
-July 2020
-
-
 Overview
 ========
 
