@@ -2,12 +2,6 @@
 
      <br/>
 
-BF4004Q
-
-AT Command Instruction Set
-
-July 2020\ **
-**
 
 Packing List
 ============
