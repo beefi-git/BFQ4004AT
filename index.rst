@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-BFQ4004 Dual-band Wi-Fi Module  AT Command Reference
-====================================================
+AT Command Reference
+====================
 July 2020
 
 .. toctree::
