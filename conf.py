@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'BFQ4004'
+project = 'BFQ4004 Dual-band Wi-Fi Module AT Command Reference'
 copyright = '2020, BeeFi Technologies Inc.'
 author = 'Job'
 
