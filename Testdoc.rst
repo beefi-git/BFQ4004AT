@@ -9,22 +9,6 @@ AT Command Instruction Set
 July 2020\ **
 **
 
-**Table of Contents**
-
-1 Packing List 3
-
-2 Introduction 4
-
-3 Installation 5
-
-3.1 Pole Mounting 5
-
-3.2 Wall Mounting 6
-
-4 QC Card 7
-
-5 Warranty Card 8
-
 Packing List
 ============
 
@@ -33,11 +17,42 @@ Packing List
    |c_right_ico4|\ |c_right_ico5|\ |c_right_ico6|
 
 .. note::
-     Some attention content |br|
+     Some attention content
 
+.. hint::
+     Some attention content
+
+.. tip::
+     Some attention content
+
+.. attention::
+     Some attention content
 
 .. important::
-     Some attention content |br|
+     Some attention content
+
+.. caution::
+     Some attention content
+
+.. warning::
+     Some attention content
+
+.. error::
+     Some attention content
+
+.. danger::
+     Some attention content
+
+.. code-block:: none
+
+    for(int j=0; j<size; j++)
+    {
+        if(arr[j]!=-1)
+        {
+            printf("The result is :%d",j);
+            break;
+        }
+    }
 
 
 .. code-block:: C
@@ -52,11 +67,46 @@ Packing List
     }
 
 
+.. code-block:: python
+
+    import random
+    if \__name_\_ =="__main__":
+    checkcode=""
+         for i in range(4):
+             index=random.randrange(0,4)
+             if index!=i and index +1 !=i:
+                 checkcode +=chr(random.randint(97,122))
+             elif index +1==i:
+                 checkcode +=chr(random.randint(65,90) )
+             else:
+                 checkcode +=str(random.randint(1,9))
+   print(checkcode)
+
+
+.. code-block:: HTML
+
+	<!DOCTYPE HTML>
+
+	<html>
+	<body>
+
+	<p>A picture:
+	    <img src="/i/eg_mouse.jpg" width="128" height="128" />
+	</p>
+
+	<p>A motion picture:
+	    <img src="/i/eg_cute.gif" width="50" height="50" />
+	</p>
+
+	</body>
+	</html>
+
+
 
 Introduction
 ============
 
-   LoRaWan Gateway鈥檚 interfaces and connectors are illustrated below:
+   LoRaWan Gateway’s interfaces and connectors are illustrated below: 中文
 
    |about_culture4|
 
@@ -108,21 +158,16 @@ Installation
 Pole Mounting
 -------------
 
-   **Step 1**: Fix the mount kit on the bottom of the device with four
-   M5*8 screws as shown below:
+   **Step 1**: Fix the mount kit on the bottom of the device with four M5*8 screws as shown below:
 
    |v2-90e14b750d27677866b4e34e4f52fd4a_1440w|
 
-   **Step 2**: Slide the Steel band clamps through the rectangular hole
-   of the mount kit, wrap the band clamps around the pole, lock them and
-   then tighten the clamps using a screwdriver.
+   **Step 2**: Slide the Steel band clamps through the rectangular hole of the mount kit, wrap the band clamps around the pole, lock them and then tighten the clamps using a screwdriver.
 
 Wall Mounting
 -------------
 
-   **Step 1**: Use 脴5mm drill head, drill 4 holes on the wall according
-   to the dimension of the following picture and then plug the srew
-   anchors in the wall;
+   **Step 1**: Use Ø5mm drill head, drill 4 holes on the wall according to the dimension of the following picture and then plug the srew anchors in the wall;
 
    |857061.fig.0016b|
 
@@ -131,41 +176,31 @@ Wall Mounting
 Warranty Card
 =============
 
-   Please fill in (*asterisk must be filled), and safekeep the warranty
-   certificate.
+   Please fill in (*asterisk must be filled), and safekeep the warranty certificate.
 
    Please fill in the information of product:
 
-   \*Product Model:
-   \____________________________________________________________\_
+   \*Product Model: \____________________________________________________________\_
 
-   \*Product ID:
-   \_______________________________________________________________\_
+   \*Product ID: \_______________________________________________________________\_
 
    Please fill in the information of customer:
 
-   User鈥檚 Name:
-   \______________________________________________________________\_
+   User’s Name: \______________________________________________________________\_
 
-   Address:
-   \__________________________________________________________________\_
+   Address: \__________________________________________________________________\_
 
-   `Tel:
-   \_______________________\_ <Tel:________________________>`__\ \______________________________________________\_
+   `Tel: \_______________________\_ <Tel:________________________>`__\ \______________________________________________\_
 
-   E-mail:
-   \___________________________________________________________________\_
+   E-mail: \___________________________________________________________________\_
 
    Please fill in the information of distributor:
 
-   \*Distributor:
-   \_______________________________________________________________\_
+   \*Distributor: \_______________________________________________________________\_
 
-   \*Tel:
-   \_____________________________________________________________________\_
+   \*Tel: \_____________________________________________________________________\_
 
-   \* Date of Purchase:
-   \__________________________________________________________\_
+   \* Date of Purchase: \__________________________________________________________\_
 
 **
 **
