@@ -2,6 +2,12 @@
 
      <br/>
 
+BF4004Q
+
+AT Command Instruction Set
+
+July 2020\ **
+**
 
 Packing List
 ============
@@ -49,7 +55,8 @@ Packing List
     }
 
 
-.. code-block:: C
+
+.. code-block:: c
 
     for(int j=0; j<size; j++)
     {
@@ -61,39 +68,32 @@ Packing List
     }
 
 
+
 .. code-block:: python
 
-    import random
-    if \__name_\_ =="__main__":
-    checkcode=""
-         for i in range(4):
-             index=random.randrange(0,4)
-             if index!=i and index +1 !=i:
-                 checkcode +=chr(random.randint(97,122))
-             elif index +1==i:
-                 checkcode +=chr(random.randint(65,90) )
-             else:
-                 checkcode +=str(random.randint(1,9))
-   print(checkcode)
+    import calendar
+    year = int(input("Input Year:"))
+           check_year=calendar.isleap(year)
+                      if check_year == True:
+                      print ("leap year")
+                      else:
+                              print ("comm year")
 
 
-.. code-block:: HTML
 
-	<!DOCTYPE HTML>
+.. code-block:: html
 
-	<html>
-	<body>
-
-	<p>A picture:
-	    <img src="/i/eg_mouse.jpg" width="128" height="128" />
-	</p>
-
-	<p>A motion picture:
-	    <img src="/i/eg_cute.gif" width="50" height="50" />
-	</p>
-
-	</body>
-	</html>
+    <!DOCTYPE HTML>
+    <html>
+    <body>
+    <p>A picture:
+    <img src="/i/eg_mouse.jpg" width="128" height="128" />
+    </p>
+    <p>A motion picture:
+    <img src="/i/eg_cute.gif" width="50" height="50" />
+    </p>
+    </body>
+    </html>
 
 
 
@@ -102,7 +102,7 @@ Introduction
 
    LoRaWan Gateway’s interfaces and connectors are illustrated below: 中文
 
-   |about_culture4|
+   .. image:: pics/media/rocket.jpg
 
    **Ports and Connectors**
 
@@ -224,12 +224,9 @@ Revision Description     Date
 .. |c_right_ico6| image:: pics/media/image9.png
    :width: 1.14583in
    :height: 1.14583in
-.. |about_culture4| image:: pics/media/image10.jpeg
-   :width: 5.25764in
-   :height: 1.79792in
-.. |v2-90e14b750d27677866b4e34e4f52fd4a_1440w| image:: pics/media/image11.jpeg
+.. |v2-90e14b750d27677866b4e34e4f52fd4a_1440w| image:: pics/media/image10.jpeg
    :width: 4.76181in
    :height: 1.35139in
-.. |857061.fig.0016b| image:: pics/media/image12.jpeg
+.. |857061.fig.0016b| image:: pics/media/image11.jpeg
    :width: 2.90417in
    :height: 2.725in
