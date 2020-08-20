@@ -66,11 +66,11 @@ Packing List
 
     import calendar
     year = int(input("Input Year:"))
-        check_year=calendar.isleap(year)
-        if check_year == True:
-             print ("leap year")
-        else:
-            print ("comm year")
+    check_year=calendar.isleap(year)
+    if check_year == True:
+        print ("leap year")
+    else:
+        print ("comm year")
 
 
 
@@ -80,7 +80,7 @@ Packing List
     <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title></title>
+      <title></title>
     </head>
     <body>
       <p>A picture: <img src="/i/eg_mouse.jpg" width="128" height="128" /></p>
